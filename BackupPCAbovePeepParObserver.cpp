@@ -18,7 +18,7 @@ template class Array < INT32, ( UINT16 )( SysDefs::VERY_HIGH + 1 ) >;
 BackupPCAbovePeepParObserver::BackupPCAbovePeepParObserver( const ParameterAdapter &myMaster )
     : ModeDepParObserver( myMaster, TRUE, FALSE, ModeDepParObserver::MODE_ONLY ),
       m_incrementSafetyCatchHandler( MessageId::MSG_HIGH_BACKUP_PRESS,
-                                     SafetyCatchHandler::STANDARD_SAFETY_CATCH_TIME_ONE_SEC ),
+                                     SafetyCatchHandler::STANDARD_SAFETY_CATCH_TIME_ONE_SEC ),,
       m_peepAdapter(),
       m_patientTypeAdapter()
 {
