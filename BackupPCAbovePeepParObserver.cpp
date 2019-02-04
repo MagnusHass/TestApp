@@ -5,7 +5,6 @@
 #include "ParameterAdapter.hpp"
 #include "ParameterDMC.hpp"
 #include "SystemConfiguration.hpp"
-#include "OptionHandler.hpp"
 
 // Explicit instantiation
 template class Array < INT32, ( UINT16 )( SysDefs::VERY_HIGH + 1 ) >;
