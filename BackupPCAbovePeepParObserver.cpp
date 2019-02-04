@@ -4,7 +4,6 @@
 #include "SafetyCatchHandler.hpp"
 #include "ParameterAdapter.hpp"
 #include "ParameterDMC.hpp"
-#include "SystemConfiguration.hpp"
 
 // Explicit instantiation
 template class Array < INT32, ( UINT16 )( SysDefs::VERY_HIGH + 1 ) >;
