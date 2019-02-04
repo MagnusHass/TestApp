@@ -12,7 +12,7 @@ template class Array < INT32, ( UINT16 )( SysDefs::VERY_HIGH + 1 ) >;
 
 /*****************************************************************************/
 /**
- * \brief   Constructor
+ * \brief   Construc tor
  *
  *****************************************************************************/
 Backup::Backup( const ParameterAdapter &myMaster )
