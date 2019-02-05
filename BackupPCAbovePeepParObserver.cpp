@@ -31,6 +31,7 @@ BackupPCAbovePeepParObserver::BackupPCAbovePeepParObserver( const ParameterAdapt
     m_regionEndLimit[( UINT16 ) SysDefs::HIGH ] = HIGH_END_LIMIT;
     m_regionEndLimit[( UINT16 ) SysDefs::VERY_HIGH ] = VERY_HIGH_END_LIMIT;
 
+	UINT32 a = 12; // fix
 
     // subscribe on master parameter changes to make sure region is updated corerectly.
     Subject::CombinedSet interestingChanges = ( Parameter::VALUE_CHANGED |
