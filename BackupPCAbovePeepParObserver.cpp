@@ -10,7 +10,7 @@ template class Array < INT32, ( UINT16 )( SysDefs::VERY_HIGH + 1 ) >;
 
 /*****************************************************************************/
 /**
- * \bri ef   Constructor
+ * \bri ef   Constructor2
  *
  *****************************************************************************/
 BackupPCAbovePeepParObserver::BackupPCAbovePeepParObserver( const ParameterAdapter &myMaster )
